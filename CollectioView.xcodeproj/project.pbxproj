@@ -13,6 +13,8 @@
 		CF2280A0208B560400308DB6 /* CollectioView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF22809E208B560400308DB6 /* CollectioView.xcdatamodeld */; };
 		CF2280A2208B560400308DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2280A1208B560400308DB6 /* Assets.xcassets */; };
 		CF2280A5208B560400308DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2280A3208B560400308DB6 /* LaunchScreen.storyboard */; };
+		CF2280AD208B5BA000308DB6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2280AC208B5BA000308DB6 /* CollectionViewCell.swift */; };
+		CFF30F57208F005200486D96 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF30F56208F005200486D96 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CF2280A1208B560400308DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF2280A4208B560400308DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF2280A6208B560400308DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2280AC208B5BA000308DB6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CFF30F56208F005200486D96 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				CF228097208B560400308DB6 /* AppDelegate.swift */,
 				CF228099208B560400308DB6 /* ViewController.swift */,
+				CF2280AC208B5BA000308DB6 /* CollectionViewCell.swift */,
+				CFF30F56208F005200486D96 /* MyCollectionViewCell.swift */,
 				CF22809B208B560400308DB6 /* Main.storyboard */,
 				CF2280A1208B560400308DB6 /* Assets.xcassets */,
 				CF2280A3208B560400308DB6 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF2280A0208B560400308DB6 /* CollectioView.xcdatamodeld in Sources */,
+				CFF30F57208F005200486D96 /* MyCollectionViewCell.swift in Sources */,
 				CF22809A208B560400308DB6 /* ViewController.swift in Sources */,
+				CF2280AD208B5BA000308DB6 /* CollectionViewCell.swift in Sources */,
 				CF228098208B560400308DB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
